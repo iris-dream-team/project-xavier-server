@@ -5,6 +5,10 @@ const { User } = require("./models");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+})
+
 app.post("/register", async (req, res) => {
   try {
     const { email, password } = req.body;
