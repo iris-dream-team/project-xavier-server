@@ -41,3 +41,11 @@ app.post("/login", async (req, res) => {
 app.listen(port, () => {
   console.log("I love u 3000");
 });
+
+
+/*
+1. pindah ke branch dimana semua code nya bakal digabung
+    dalam hal ini di development
+2. ketik `git merge <target-branch>` // feature-login
+
+*/
